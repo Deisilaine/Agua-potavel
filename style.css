@@ -1,0 +1,32 @@
+html,body {
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li :hover {
+background: darkgray;
+}
+#imagem_fundo{
+    background: url("engenheiros-sorridentes-de-tiro-completo-com-laptop_23-2149354038.webp");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
